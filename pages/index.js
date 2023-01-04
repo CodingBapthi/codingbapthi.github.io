@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
@@ -9,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>it's me</title>
+        <title>it&apos;s me</title>
         <meta name="description" content="Generated my portfolio with next.js" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -40,7 +39,7 @@ export default function Home() {
               Learn <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Learn something from me, that's why you're here isn't it?
+              Learn something from me, that&apos;s why you&apos;re here isn&apos;t it?
             </p>
           </a>
 
@@ -54,7 +53,7 @@ export default function Home() {
               Me <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Discover Me, I'm a very interesting person. Not!
+              Discover Me, I&apos;m a very interesting person. Not!
             </p>
           </a>
 
@@ -68,7 +67,7 @@ export default function Home() {
               Projects <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Hear a some of my projects. Or what I'm doing as a Frontend Developer!
+              Hear a some of my projects. Or what I&apos;m doing as a Frontend Developer!
             </p>
           </a>
         </div>
